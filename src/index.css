@@ -11,7 +11,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: radial-gradient(#186a5e, #053339);
   color: #e1eeeb;
-  min-height: 100vh;
 }
 
 #content {
