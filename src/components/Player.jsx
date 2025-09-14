@@ -13,7 +13,7 @@ export default function Player() {
     <section id="player">
       <h2>Welcome {name ? name : 'unknown entity'},</h2>
       <p>
-        <input type="text" ref={inputRef} />
+        <input type="text" ref={inputRef} value={name}/>
         <button onClick={handleSetName}>Set Name</button>
       </p>
     </section>
